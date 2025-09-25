@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Convert to uppercase</title>
+</head>
+<body>
+
+    <input id="Text" type="Text">
+    <button id="btn">Convert</button>
+    <div id="result"></div>
+
+    <style>
+        body {
+            font-family: sans-serif;
+            font-size: 16px;
+        }
+        .container {
+            height: 80px;
+            width: 300px;
+        }
+        p {
+            margin-bottom: 2px;
+        }
+        input[type="text"] {
+            border: #CCC 1px dotted;
+            /*csslint box-sizing: false*/
+            box-sizing: border-box;
+            font-size: 16px;
+            margin-bottom: 5px;
+            padding: 2px;
+            width: 100%;
+        }
+        button {
+            /*csslint box-sizing: false*/
+            box-sizing: border-box;
+            margin: 0 auto;
+            margin-bottom: 5px;
+            width: 49%;
+        }
+        #result-container {
+            margin: 5px 0;
+
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <p>Type text and hit convert</p>
+        <input type="text" id="text-to-convert" placeholder="Type text...">
+        <button id="convert-command">Convert</button>
+        <button id="copy-command">Copy</button>
+        <div id="result-container">
+        </div> <!-- #result -->
+    </div> <!-- .container -->
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,12 @@
+{
+    "version": "0.0.1",
+    "name": "Convert to uppercase",
+    "description": "Transform text into uppercase",
+    "author": "Giovanna Hespanha",
+    "browser_action": {
+   	    "default_title": "Convert to uppercase",
+   	 "default_popup": "index.html"
+    },
+    "manifest_version": 2
+
+}
